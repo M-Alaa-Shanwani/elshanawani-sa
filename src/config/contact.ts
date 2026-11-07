@@ -4,7 +4,7 @@
 // Saudi Arabia (0571325956) -> 966571325956
 
 export const CONTACT_CONFIG = {
-  // Can be configured via environment variable or default value:
-  whatsappNumber: import.meta.env.VITE_WHATSAPP_NUMBER || '201093299050',
-  displayPhoneNumber: import.meta.env.VITE_DISPLAY_PHONE || '+20 109 329 9050',
+  // Saudi Arabia mobile: 0571325956 -> WhatsApp international format: 966571325956
+  whatsappNumber: import.meta.env.VITE_WHATSAPP_NUMBER || '966571325956',
+  displayPhoneNumber: import.meta.env.VITE_DISPLAY_PHONE || '0571325956',
 };
